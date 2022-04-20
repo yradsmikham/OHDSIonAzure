@@ -8,6 +8,7 @@ variables:
   value: 'infra/terraform/omop'
 - name: terraform_version
   value: '1.1.4'
+- group: yvonne-test-omop-environment-settings-vg
 
 # Environment settings should come from bootstrap VG setup through bootstrap TF
 - name: tf_command_variables
